@@ -1,0 +1,120 @@
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Main 1 CSS */
+.main{
+    height: 600px;
+    width: 800px;
+    background-color: #ACD7E5;
+}
+
+hr{
+    margin-top: 10px;
+}
+/* head 1 CSS */
+.head{
+    height: 100px;
+    width: 750px;
+    background-color: rgb(241, 233, 233);
+    margin-left: 25px;
+    margin-top: 20px;
+    position: relative;
+}
+
+#a{
+    position: absolute;
+   margin: 20px 0 0 10px;
+}
+#b{
+    position: absolute;
+    margin: 45px 0 0 10px;
+}
+#c{
+    position: absolute;
+    margin: 45px 0 0 250px;
+    color: red;
+}
+#d{
+    position: absolute;
+    margin: 65px 0 0 250px;
+    color: rgb(7, 212, 212);
+} 
+#e{
+    position: absolute;
+    margin: 45px 0 0 550px;
+}
+/* head 2 start */
+.head2{
+    height: 400px;
+    width: 750px;
+    background-color: rgb(241, 233, 233); 
+    margin-top: 25px;
+    margin-left: 20px;
+    position: relative;
+}
+#f{
+    height: 300px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 30px 0 0 390px;
+}
+input , textarea{
+    padding: 10px;
+    
+}
+#g{
+    /* padding: 10px; */
+    position: absolute;
+    margin: 50px 0 0 10px;
+
+}
+#h{
+    position: absolute;
+    margin: 50px 0 0 200px;
+}
+#i{
+    position: absolute;
+    margin: 100px 0 0 10px;
+}
+#j{
+    position: absolute;
+    margin: 100px 0 0 200px;
+}
+#k{
+    position: absolute;
+    margin: 150px 0 0 10px;
+}
+button{
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    position: absolute;
+    margin: 325px 0 0 10px;
+    background-color: red;
+    color: white;
+}
+#m{
+    position: absolute;
+    margin: 360px 0 0 430px;
+}
+#n{
+    position: absolute;
+    margin: 360px 0 0 460px;
+}
+#o{
+    position: absolute;
+    margin: 360px 0 0 490px;
+}
+#p{
+    position: absolute;
+    margin: 360px 0 0 520px;
+}
+iframe{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 410px;
+}
